@@ -1,0 +1,51 @@
+
+
+.newBook-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 500px;
+    margin:0 auto;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.newBook-form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+.newBook-form div{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.newBook-form label {
+
+    margin-bottom: 5px;
+    color: #1d3557;
+    font-size: 1.2rem;
+}
+
+.newBook-input{
+
+    height: 30px;
+    border: #d3d3d3 solid 1px   ;
+    border-radius: 5px;
+    font-size: 1.1rem;
+}
+
+.newBook-button{
+
+    height: 40px;
+    border: #1d3557 solid 1px;
+    background-color: #1d3557;
+    border-radius: 5px;
+    color: white;
+    font-size: 1.1rem;
+}
+
+

@@ -1,0 +1,30 @@
+
+
+
+.oneBook-container{
+
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 20px;
+    border-radius: 10px;
+    
+}
+
+.oneBook-text{
+
+    padding: 0 50px 0 50px;
+    /* border-right: #f1faee solid 2px; */
+} 
+
+.oneBook-text h3 {
+    margin: 0;
+}
+
+.oneBook-image{
+    padding: 0 0 0 20px;
+    /* border-left:#f1faee solid 2px;  */
+}

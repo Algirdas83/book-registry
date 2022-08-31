@@ -1,0 +1,118 @@
+
+
+.home-container{
+    display: flex;
+    justify-content: center;
+    background-color: #f1faee;
+    width: 70%;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 20px;
+    margin-bottom: 50px;
+    color: #1d3557;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+
+th, td {
+    border-bottom: #1d3557 solid 2px;
+    padding: 10px;
+}
+
+.home-table{
+    width: 100%;
+}
+
+.home-image{
+    width: 50%;
+    
+}
+
+
+
+.btn{
+    display: block;
+    text-align: center;
+    font-size: 1.2rem;
+    max-width: 200px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    color: white;
+    background-color: #f1faee;
+    
+}
+.home-link-p{
+    display: inline-block;
+    width: 150px;
+    text-align: center;
+    padding: 11px;
+    text-decoration: none;
+    border: #457b9d solid 2px ;
+    color: #457b9d ;
+    font-weight: 700;
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
+
+.home-link-p:hover{
+    background-color: #457b9d;
+    color: white;
+}
+
+.home-link-r{
+
+    display: inline-block;
+    width: 150px;
+    text-align: center;
+    padding: 11px;
+    text-decoration: none;
+    border: #2a9d8f solid 2px ;
+    color: #2a9d8f ;
+    font-weight: 700;
+    margin-bottom: 10px;
+    border-radius: 8px;
+
+}
+.home-link-r:hover{
+    background-color: #2a9d8f;
+    color: white;
+    
+}
+
+.home-btn-delete{
+    width: 100%;
+    border: #e63946 solid 2px;
+    color: #e63946;
+    font-weight: 700;
+}
+
+.home-btn-delete:hover{
+    background-color: #e63946;
+    color: white;
+}
+
+
+/* .home-btn-view{
+    width: 100%;
+    border: #457b9d solid 2px;
+}
+
+.home-btn-view:hover{
+    background-color:#457b9d ;
+    color: white;
+    
+} */
+
+.home-btn-update{
+    width: 100%;
+    border: #2a9d8f solid 2px;  
+}
+
+.home-btn-update:hover{
+    background-color: #2a9d8f;
+}
+
